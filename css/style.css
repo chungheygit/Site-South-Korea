@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+@font-face{
+	font-family: "Lato";
+	src:url("fonts/Lato-Regular.ttf");
+}
+/*video achtergrond*/
+#video{
+	position: fixed;
+	background-position:center center;
+	right: 0;
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	z-index:-1;
+}
+
+h1{
+	font-size:80px;
+	font-family: Cinzel, Arial, Berlin Sans FB, "Lato";
+}
+
+h2{
+	color: #444444;
+	font-size:35px;
+	font-family: arial, Berlin Sans FB, "Lato", Cinzel;
+}
+
+.boven{
+	width:1300px;
+	margin:auto;
+	background-color: #2699FB;
+	text-align: center;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #000000
+}
+
+header{
+	text-align:center;
+	font-size: 35px;
+	font-family: "Lato", arial, Berlin Sans FB, Cinzel;
+}
+
+article{
+	margin-bottom: 100px;
+}
+
+#cookies{
+	z-index: 99;
+	background-color: #444444;
+	color: #FFFFFF;
+	right: 0;
+	bottom: 0;
+	position: fixed;
+	padding: 10px;
+}
+/* nav bar here */
+.nav ul{
+	background-color: #AAAAAA;
+	display: block;
+	width:1260px;
+	margin: auto;
+	border-style: solid;
+	border-width: 3px;
+}
+
+.nav li {
+	font-family: Berlin Sans FB, arial, "Lato", Cinzel;
+	display: inline-block;
+	margin-right: 30px;
+	color: #FFFFFF;
+}
+
+ 
+.nav a {  
+	color: #000000;
+}
+ 
+.nav a:hover {
+	background-color: #F5F5F5;
+}
+ 
+article{
+	width: 1300px;
+	margin:auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #000000;
+	background-color: #FFFFFF;
+}
+
+.mainimg{
+	float:bottom;
+	height:400px;
+}
+
+
+.sportimg{
+	height:300px;
+}
+
+#sportart{
+	color: #000000;
+	text-align:center;
+	
+}
+#sportart a:visted{
+	color:#000000;
+}
+
+#sportart li{
+	font-family:Berlin Sans FB;
+	font-size: 28px;
+	list-style-type: none;
+}
+
+
+#contact, #endfoot{
+	width: 1300px;
+	margin:auto;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #000000;
+	background-color: #FFFFFF;
+}
+
+p{
+	font-family: arial, Berlin Sans FB, "Lato", Cinzel;
+	font-size: 15px;
+}
+
+footer{
+	text-align:center;
+	color: #707070;
+}
+	
+
+#endfoot{
+	color: #000000
+}
+
+#naamform{
+	float: top;
+}
+
+#mail{
+	float:top;
+}
+	
